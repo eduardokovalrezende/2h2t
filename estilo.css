@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+.rodape {
+    text-align: center;
+}
+@media screen and (min-width:  768px) {
+    .menu {
+        height: 100px;
+        background-color: darkgrey;
+     }
+ } 
+ @media screen and (min-width: 1280px) {
+    .menu{
+        height: 150px;
+        background-color: black;
+        color: #FFF;
+        font-size: 64px;
+    }
+ }
+    

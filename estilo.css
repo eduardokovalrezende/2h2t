@@ -24,4 +24,30 @@
         font-size: 64px;
     }
  }
-    
+:root{
+    --cor-fundo: ;
+    --cor-fonte: ;
+    --cor-hover: ;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none
+}
+.header {
+    background-color: var(--cor-fundo);
+    position: sticky;
+    top: 0;
+    width: 100vw;
+}
+.logo {
+    display: inline-block;
+}
+.nav{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--cor-fundo);
+    overflow: hidden;
+}
